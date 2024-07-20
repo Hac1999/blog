@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="languages.xsl"?>
+<page>
+<languages>
+ <name>Python</name>
+ <version>3.12</version>
+ <year>2022</year>
+ <level>intermediate</level>
+</languages>
+<languages>
+ <name>C++</name>
+ <version>20</version>
+ <year>2020</year>
+ <level>Basic</level>
+</languages>
+<languages>
+ <name>Html</name>
+ <version>5</version>
+ <year>2019</year>
+ <level>intermediate</level>
+</languages>
+<languages>
+ <name>CSS</name>
+ <version>3</version>
+ <year>2019</year>
+ <level>intermediate</level>
+</languages>
+<languages>
+ <name>Javascript</name>
+ <version></version>
+ <year>2019</year>
+ <level>intermediate</level>
+</languages>
+<languages>
+ <name>C</name>
+ <version></version>
+ <year>2024</year>
+ <level>Basic</level>
+</languages>
+</page>

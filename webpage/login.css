@@ -1,0 +1,122 @@
+html{
+   padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-image: url("login_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    height: 100%;
+   
+}
+.title{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.login form{
+    border: 1px solid white;
+    color: white;
+    height: 280px;
+    width: 200px;
+    background-image: white ;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.login a{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login p{
+    font-size: smaller;
+}
+.login button{
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+
+
+}
+.login input{
+    background-color: white;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+.login button:hover{
+    box-shadow: -10px 0px 10px  pink;
+
+}
+.signup_content{
+     background-image: url(login_bg1.avif);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     display: none;
+}
+.sign_up form{
+    border: 1px solid white;
+    color: white;
+    height: 280px;
+    width: 200px;
+    background-image: white ;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.signup_title{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.sign_up a{
+    color: red;
+    cursor: pointer;
+
+}
+.sign_up button{
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    border-radius: 10%;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+.sign_up button:hover{
+    box-shadow: 10px 0px 10px pink;
+}
+.sign_up p{
+    font-size: small;
+}

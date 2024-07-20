@@ -1,0 +1,130 @@
+.body{
+ margin: 0px;
+ padding: 0px;
+
+}
+.logo_bg{
+    background-color: rgb(96, 180, 145);
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: start;
+    
+
+}
+.logo_bg h2{
+    position: relative;
+    top: -12px;
+}
+.menu{
+
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+
+}
+.slide{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    right: 8px;
+    display: none;
+
+    
+    
+}
+.slide a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+.slide a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.Main{
+    background-image: url(newspaper.jfif);
+    padding: 1px;
+    
+}
+.content p{
+    color: rgb(71, 81, 83);
+}
+.photo h1{
+    
+    color: rgb(71, 81, 83);
+    display: flex;
+
+    font-size: 40px;
+    font-family: Georgia, serif;
+    margin: 0;
+
+    
+}
+.photo p{
+    color: rgb(71, 81, 83);
+    font-family: Georgia, serif;
+    margin: 0;
+
+}
+.l1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1px;
+    cursor: pointer;
+
+}
+.l1 a{
+text-decoration: none;
+color: rgb(71, 81, 83);
+}
+.l2 a{
+    text-decoration: none;
+color: rgb(71, 81, 83);
+}
+.l2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1px;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.insta a{
+    text-decoration: none;
+    color:rgb(71, 81, 83) ;
+}
+.gmail a{
+    text-decoration: none;
+    color:rgb(71, 81, 83) ;
+}
+.whatsapp a{
+    text-decoration: none;
+    color:rgb(71, 81, 83) ;
+}
+.insta img{
+    position: relative;
+    top: 10px;
+}
+.gmail img{
+    position: relative;
+    top: 10px;
+}
+.whatsapp img{
+    position: relative;
+    top: 11px;
+}
